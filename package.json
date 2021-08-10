@@ -1,0 +1,14 @@
+{
+	"name": "boilerplate",
+	"version": "1.0.0",
+	"description": "exploring-babel",
+	"main": "input.js",
+	"scripts": {
+		"build": "babel src/index.js -o public/scripts/bundle.js --presets env --watch"
+	},
+	"author": "kunal",
+	"license": "ISC",
+	"dependencies": {
+		"babel-preset-env": "^1.6.1"
+	}
+}
