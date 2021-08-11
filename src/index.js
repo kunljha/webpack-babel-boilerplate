@@ -1,11 +1,8 @@
-const name = 'Mike'
+// import './utilities'
+import { add, name } from './utilities.js'
+import { scream } from './scream.js'
+
+console.log('index.js')
+console.log(add(45, 89))
 console.log(name)
-
-class Hangman {
-	myMethod() {
-		return 'Hello Babel'
-	}
-}
-
-const hangman = new Hangman()
-console.log(hangman.myMethod())
+console.log(scream('learning babel and webpack is fun'))
